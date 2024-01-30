@@ -5,6 +5,8 @@
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 *{
     margin: 0;
@@ -208,17 +210,17 @@ button:hover{
     top: 0%;
 }
 .arrow{
-    color: white;
+    color: rgba(255, 255, 255, 0.425);
     height: 35px;
     width: 35px;
     border-radius: 50%;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 35px;
     margin: 3px;
-    
+    padding-top: 5px;
 
 }
 .main_top .left{
@@ -285,13 +287,19 @@ button:hover{
     margin-left: 25px;
     line-height: 30px;
     padding-left: 5px;
-    padding-right: 95px;
+    padding-right: 55px;
+}
+.about li{
+    color: gray;
+}
+.about h4{
+    color: white;
 }
 .social_media{
     list-style: none;
     display: flex;
-    margin-left: 120px;
-    margin-right: 25px;
+    margin-left: 200px;
+    margin-right: 10px;
 }
 .insta{
     height: 40px;
@@ -317,6 +325,9 @@ button:hover{
     padding: 7.7px;
     margin-left: 20px;
 }
+.insta:hover, .twitter:hover, .facebook:hover{
+    transform: scale(1.08);
+}
 .copyright{
     height: auto;
     background-color: rgba(56, 52, 52, 0.281);
@@ -324,11 +335,20 @@ button:hover{
     padding: 40px;
 }
 .line{
-    background-color: aliceblue;
+    background-color: gray;
     height: 5px;
     width: 101%;
 }
 .copy{
     color: white;
     margin-top: 30px;
+}
+
+/* underline on placing cursor */
+
+.spotify_play:hover, .show_all:hover{
+    text-decoration: underline;
+}
+.show_all:hover{
+    color: white;
 }
